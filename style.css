@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #123139;
+}
+
+main {
+  margin: 2%;
+  height: 100%;
+  border: none;
+  background-color: #123139;
+  /* box-shadow: h-offset v-offset blur */
+  box-shadow: 0px 2px 5px;
+}
+
+header {
+  height: 70px;
+  padding-left: 40px;
+  padding-right: 70px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: bisque; */
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header ul li {
+  margin: 0 1em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: x;
+}
+
+header ul .cu {
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+header ul .cu a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  height: 100%;
+}
+
+.intro {
+  margin-top: 30px;
+  height: 70%;
+  /* background-color: #15323f; */
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TExt {
+  flex: 1;
+  padding-left: 150px;
+}
+
+.TExt h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+.cont {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.sac {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.imgs {
+  flex: 1.2;
+  height: 100%;
+  width: 100%;
+}
+
+.imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.secondpart {
+  height: 30%;
+  background-color: white;
+  padding: 5%;
+}
+
+.secondpart h1 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.Ben {
+  flex: 1;
+}
+.Ben p {
+  width: 50%;
+  color: #979797;
+}
+
+.Str {
+  flex: 1;
+}
+.Str p {
+  width: 50%;
+  color: #979797;
+}
+.Fin {
+  flex: 1;
+}
+.Fin p {
+  width: 50%;
+  color: #979797;
+}
+
+footer {
+  height: 5%;
+  background-color: #15323a;
+  display: flex;
+
+  align-items: center;
+  color: aliceblue;
+}
