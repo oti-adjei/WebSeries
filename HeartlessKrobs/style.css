@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul img {
+  height: 70%;
+}
