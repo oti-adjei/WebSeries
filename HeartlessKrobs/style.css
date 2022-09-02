@@ -14,15 +14,160 @@ body {
 }
 
 header {
+  width: 100%;
   height: 80px;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
-header ul {
+header .headercontent {
+  width: 95%;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .leftside {
+  display: flex;
+  align-items: center;
+}
+header .leftside ul {
+  display: flex;
+  align-items: center;
   list-style: none;
 }
-header ul img {
-  height: 70%;
+header .leftside .imagecontainer {
+  height: 50px;
+  width: fit-content;
+}
+header .leftside .imagecontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+header .leftside ul {
+  margin-left: 20px;
+}
+header .leftside ul li {
+}
+header .leftside ul li a {
+  padding-left: 15px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+header .rightside {
+  display: flex;
+  align-items: center;
+}
+
+header .rightside ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header .rightside ul .signups {
+  background: #ff7800;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin: 0 10px;
+}
+
+header .rightside ul .logins {
+  background: #f3f4f5;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+}
+
+.Intro {
+  height: 60%;
+  background-color: #fe7314;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+
+}
+.Intro h1 {
+  color:#FFFEFF;
+  font-size: 55px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+  padding-top: 400px:
+
+}
+.Intro h4{
+  font-size: 20px;
+  font-weight: 300;
+  color:#FFFEFF;
+  padding: 20px;
+}
+
+.Intro .Searchspace {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 50%;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 10px;
+}
+.Intro .Searchspace .vectorss{
+  background: white;
+  border-color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.Intro .Searchspace .inputt{
+  background: blue;
+  height: 30px;
+  width:150%;
+}
+.Intro .Searchspace .inputt input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 5px 15px;
+}
+.Intro .Searchspace .sear{
+  width: 50px;
+  height: 40px;
+
+}
+.Intro .Searchspace .sear img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+.Intro .trends {
+  padding-top: 20px;
+  display: flex;
+}
+.Intro .trends ul {
+  display: flex;
+}
+.Intro .trends ul li {
+  list-style: none;
+}
+.Intro .trends h3 {
+  font-size: 18px;
+  font-weight: 200;
+
+  color: white;
+
+}
+
+.Intro .trends ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 15px;
 }
