@@ -161,7 +161,6 @@ header .rightside ul .logins {
 .Intro .trends h3 {
   font-size: 18px;
   font-weight: 200;
-
   color: white;
 
 }
@@ -170,4 +169,119 @@ header .rightside ul .logins {
   text-decoration: none;
   color: white;
   padding-left: 15px;
+}
+.Rfree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.Rfree h2{
+  padding-top: 60px;
+  font-size: 45px;
+
+}
+.Rfree .Rfimages{
+  margin-top: 40px;
+}
+
+
+.Rfree .Rfimages .Gallery {
+  display: flex;
+  flex: 1;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  height: 200px;
+
+}
+.Rfree .Rfimages .Gallery img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Rfree .Rfimages .li{
+  list-style-type: none;
+
+}
+
+.Timages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.Timages h2{
+  padding-top: 60px;
+  font-size: 45px;
+
+}
+.Timages .Timagestw{
+  margin-top: 40px;
+}
+.Timages .Timagestw .Gallery {
+  display: flex;
+  flex: 1;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  height: 200px;
+
+}
+
+.Timages .Timagestw .Gallery img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.signup{
+  background-image: url("images/sign-up-free-min-14236866d9a7d867785f3325c3339cec.jpg");
+  background-size: cover;
+  ba
+  height: 460px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 150px;
+
+}
+
+.signup .lowersignup{
+  background: #ff7800;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+}
+
+
+
+footer{
+  width:100%;
+  /* padding: 10px 50px; */
+  height:400px;
+  background-color: #0E2232;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+
+
+}
+footer .linkss{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-left: 20%;
+  padding-right:20%;
+
+}
+
+footer .botom{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
 }
