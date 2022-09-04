@@ -236,10 +236,28 @@ header .rightside ul .logins {
   object-fit: contain;
 }
 
+
+.Trust{
+  margin: 30px 0px;
+  height:250px;
+  background-color: #F7F9FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Trust .brands{
+  padding-top: 50px;
+
+}
+
+.Trust .brands img{
+  padding: 70px;
+}
 .signup{
   background-image: url("images/sign-up-free-min-14236866d9a7d867785f3325c3339cec.jpg");
   background-size: cover;
-  ba
   height: 460px;
   display:flex;
   flex-direction: column;
@@ -249,11 +267,28 @@ header .rightside ul .logins {
 }
 
 .signup .lowersignup{
-  background: #ff7800;
-  padding: 10px 30px;
+  width: 150px;
+  background:white ;
+  padding: 15px 10px;
   border-radius: 10px;
   border: none;
-  color: black;
+  color: #ff7800;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.signup h2{
+  padding-bottom: 30px;
+  color: white;
+  font-size: 50px;
+
+}
+
+.signup p{
+  padding-bottom: 30px;
+  width: 480px;
+  color: white;
+  font-size: 20px;
 }
 
 
