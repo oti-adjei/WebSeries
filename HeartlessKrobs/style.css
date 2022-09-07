@@ -124,7 +124,7 @@ header .rightside ul .logins {
   border-color: #CFD3D6;
   padding: 15px 25px;
   border-radius: 10px;
-  border: 0.5px solid;
+  border: px solid;
 }
 
 .Intro .Searchspace .inputt{
@@ -242,7 +242,7 @@ header .rightside ul .logins {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .Wvecteezy .conten{
