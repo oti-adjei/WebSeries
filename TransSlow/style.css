@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+header .headercontent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .headercontent .Logs {
+  height: 80%;
+}
+
+header .headercontent .Logs img {
+  height: 100%;
+}
+header button {
+  background: #ff7800;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.Intro {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://transcript.knust.edu.gh//landing-page/images/header_back2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.Intro .Tec {
+  padding-top: 250px;
+  height: 62%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+.Intro .Tec .Text {
+  width: 40%;
+  margin-right: 5%;
+}
+.Intro .Tec img {
+  height: 100%;
+}
+
+/* .Intro img {
+  padding-bottom: 0px;
+} */
+.About {
+  margin-top: 5%;
+  height: 85%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About img {
+  height: 90%;
+
+  margin-right: 150px;
+}
+
+.About .Box img {
+  height: 40px;
+}
+.YOu {
+  margin-top: 5%;
+  height: 85%;
+  background-color: #363f57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.YOu .Tube {
+  width: 60%;
+  /* background-color: blue; */
+  height: 70%;
+}
+
+.YOu .Tube iframe {
+  box-shadow: 2px 2px 10px;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+  color: white;
+}
